@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Actitime App Test Automation Suite">
+  <test name="Actitime App Test">
+  
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.actitime.com/"/>
+  <parameter name="fname" value="Jamuna"/>
+  <parameter name="lname" value="K R"/>
+  <parameter name="email" value="jamunakr1803@gmail.com"/>
+    
+    <classes>
+      <class name="uTestNG.TakingFromXMLfile"/>
+    </classes>
+    
+  </test> 
+</suite> 

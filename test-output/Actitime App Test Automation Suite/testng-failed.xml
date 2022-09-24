@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Actitime App Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Actitime App Test(failed)">
+    <parameter name="fname" value="Jamuna"/>
+    <parameter name="lname" value="K R"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.actitime.com/"/>
+    <parameter name="email" value="jamunakr1803@gmail.com"/>
+    <classes>
+      <class name="uTestNG.TakingFromXMLfile">
+        <methods>
+          <include name="verifyLoginTest" invocation-numbers="0"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- uTestNG.TakingFromXMLfile -->
+    </classes>
+  </test> <!-- Actitime App Test(failed) -->
+</suite> <!-- Failed suite [Actitime App Test Automation Suite] -->
